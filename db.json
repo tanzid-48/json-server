@@ -1,0 +1,132 @@
+{
+  "categories": [
+    { "id": "01", "name": "Politics" },
+    { "id": "02", "name": "Sports" },
+    { "id": "03", "name": "Technology" },
+    { "id": "04", "name": "Entertainment" },
+    { "id": "05", "name": "Business" },
+    { "id": "06", "name": "Health" }
+  ],
+  "news": [
+    {
+      "id": "n01",
+      "title": "Bangladesh National Election Results Announced",
+      "details": "The Election Commission of Bangladesh has officially announced the results of the national elections held across the country. Millions of voters participated in the democratic process, making it one of the largest turnouts in recent history. The winning party has pledged to focus on economic development and social welfare programs.",
+      "image": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=600",
+      "author": {
+        "name": "Rafiqul Islam",
+        "image": "https://i.pravatar.cc/50?img=1",
+        "published_date": "2025-04-20"
+      },
+      "category_id": "01",
+      "rating": 4,
+      "total_view": 12530,
+      "is_trending": true
+    },
+    {
+      "id": "n02",
+      "title": "Tigers Win ICC Champions Trophy in Thrilling Final",
+      "details": "Bangladesh cricket team has won the ICC Champions Trophy in a nail-biting final against India at Lord's Cricket Ground. Captain Shakib Al Hasan led the team to a 5-wicket victory with an outstanding all-round performance. The entire nation erupted in celebration as Bangladesh claimed their first major ICC trophy.",
+      "image": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=600",
+      "author": {
+        "name": "Mahmudul Hasan",
+        "image": "https://i.pravatar.cc/50?img=2",
+        "published_date": "2025-04-21"
+      },
+      "category_id": "02",
+      "rating": 5,
+      "total_view": 45200,
+      "is_trending": true
+    },
+    {
+      "id": "n03",
+      "title": "OpenAI Launches GPT-5 with Groundbreaking Capabilities",
+      "details": "OpenAI has officially released GPT-5, its most powerful language model to date. The new model demonstrates remarkable improvements in reasoning, coding, and multimodal understanding. Tech experts around the world are calling it a major milestone in the history of artificial intelligence.",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600",
+      "author": {
+        "name": "Tasnim Akter",
+        "image": "https://i.pravatar.cc/50?img=3",
+        "published_date": "2025-04-22"
+      },
+      "category_id": "03",
+      "rating": 5,
+      "total_view": 38900,
+      "is_trending": true
+    },
+    {
+      "id": "n04",
+      "title": "Shakib Khan Signs Deal with Major Bollywood Studio",
+      "details": "Bangladeshi superstar Shakib Khan has signed a multi-film deal with a leading Bollywood production house. This marks a historic moment for the Dhallywood film industry as one of its biggest stars steps into the Indian film market. The first film is expected to begin production later this year.",
+      "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=600",
+      "author": {
+        "name": "Nusrat Jahan",
+        "image": "https://i.pravatar.cc/50?img=4",
+        "published_date": "2025-04-22"
+      },
+      "category_id": "04",
+      "rating": 3,
+      "total_view": 21000,
+      "is_trending": false
+    },
+    {
+      "id": "n05",
+      "title": "Bangladesh GDP Growth Hits Record 8.5% This Quarter",
+      "details": "The Bangladesh Bureau of Statistics has reported an unprecedented GDP growth rate of 8.5% for the last quarter, driven largely by the garment sector and a booming startup ecosystem. Foreign direct investment has also reached an all-time high, signaling strong confidence in the country's economy.",
+      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600",
+      "author": {
+        "name": "Karim Uddin",
+        "image": "https://i.pravatar.cc/50?img=5",
+        "published_date": "2025-04-23"
+      },
+      "category_id": "05",
+      "rating": 4,
+      "total_view": 9870,
+      "is_trending": false
+    },
+    {
+      "id": "n06",
+      "title": "WHO Declares New Vaccine Effective Against Dengue Fever",
+      "details": "The World Health Organization has approved a new vaccine that shows 92% effectiveness against dengue fever. Bangladesh, which faces annual dengue outbreaks, is among the first countries to receive the vaccine. Health officials have begun planning a nationwide immunization drive.",
+      "image": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=600",
+      "author": {
+        "name": "Dr. Farida Begum",
+        "image": "https://i.pravatar.cc/50?img=6",
+        "published_date": "2025-04-23"
+      },
+      "category_id": "06",
+      "rating": 5,
+      "total_view": 17600,
+      "is_trending": true
+    },
+    {
+      "id": "n07",
+      "title": "Government Announces Free WiFi in All Public Schools",
+      "details": "The Ministry of Education has announced a landmark initiative to provide free high-speed internet access to all public schools across Bangladesh. The program, funded by a public-private partnership, aims to digitize education and reduce the learning gap between urban and rural students.",
+      "image": "https://images.unsplash.com/photo-1588702547919-26089e690ecc?w=600",
+      "author": {
+        "name": "Sabbir Rahman",
+        "image": "https://i.pravatar.cc/50?img=7",
+        "published_date": "2025-04-24"
+      },
+      "category_id": "03",
+      "rating": 4,
+      "total_view": 14300,
+      "is_trending": false
+    },
+    {
+      "id": "n08",
+      "title": "Dhaka Stock Exchange Reaches All-Time High",
+      "details": "The Dhaka Stock Exchange (DSE) index crossed the 10,000-point mark for the first time in its history on Monday. Analysts attribute the surge to strong corporate earnings reports and renewed investor confidence following recent policy reforms by the Bangladesh Securities and Exchange Commission.",
+      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600",
+      "author": {
+        "name": "Habibur Rahman",
+        "image": "https://i.pravatar.cc/50?img=8",
+        "published_date": "2025-04-25"
+      },
+      "category_id": "05",
+      "rating": 3,
+      "total_view": 8500,
+      "is_trending": false
+    }
+  ]
+}
