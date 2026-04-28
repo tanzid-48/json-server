@@ -1,25 +1,34 @@
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import Link from "next/link";
 
 const NewsCard = ({ item }) => {
   return (
-    <div className="border p-4 rounded-xl mb-4 shadow">
-      <Image src={item.image} alt="news"
-      width={250}
-      height={200}
-       className="w-full h-48 object-cover rounded" />
+    <Link href={`/news/${item.id}`}>
+      <div className="border p-4 rounded-xl mb-4 shadow cursor-pointer hover:shadow-lg transition">
 
-      <h2 className="text-lg font-bold mt-2">{item.title}</h2>
+        <Image
+          src={item.image}
+          alt={item.title}
+          width={500}
+          height={300}
+          className="w-full h-48 object-cover rounded"
+        />
 
-      <p className="text-sm text-gray-600 mt-1">
-        {item.details.slice(0, 100)}...
-      </p>
+        <h2 className="text-lg font-bold mt-2">
+          {item.title}
+        </h2>
 
-      <div className="flex justify-between mt-3 text-sm">
-        <span>👁 {item.total_view}</span>
-        <span>⭐ {item.rating}</span>
+        <p className="text-sm text-gray-600 mt-1">
+          {item.details.slice(0, 100)}...
+        </p>
+
+        <div className="flex justify-between mt-3 text-sm">
+          <span>👁 {item.total_view}</span>
+          <span>⭐ {item.rating}</span>
+        </div>
+
       </div>
-    </div>
+    </Link>
   );
 };
 
